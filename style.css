@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    background: #222121;
+    font-family: "Inter", sans-serif;
+}
+.logo-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    
+}
+
+.navbar {
+    background: #1f1f1f;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #333;
+}
+.nav-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+}
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #e5e5e5;
+    font-size: 18px;
+    font-weight: 600;
+
+    padding: 6px 12px;
+    border-radius: 8px;
+
+    transition: 0.2s;
+}
+.nav-links a:hover {
+    background: #4688ff;
+    color: white;
+}
+.nav-links .active {
+    background: #4688ff;
+    color: white;
+}
+
+.game-card {
+    width: 400px;
+    height: 500px;
+    background: #222121;
+    border: 2px solid white;
+    border-radius: 5px;
+
+    padding: 0;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 8px;  
+}
+.game-logo {
+    width: 396px;
+    height: 300px;   
+    object-position: center; 
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;; 
+    border: 2px solid white;
+}
+.game-title {
+    text-align: center;;
+    color: #b4b0b0;
+}
+.install-btn {
+    margin-top: auto;
+    margin-bottom: 50px;
+    padding: 8px 16px;
+    background: blue;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.install-btn:hover {
+    background: #4688ff;
+    color: white;
+}
