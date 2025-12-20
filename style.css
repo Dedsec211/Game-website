@@ -60,7 +60,6 @@ body {
     height: 500px;
     background: #222121;
     border: 2px solid white;
-    border-radius: 5px;
 
     padding: 0;
     position: absolute;
@@ -101,4 +100,23 @@ body {
 .install-btn:hover {
     background: #4688ff;
     color: white;
+}
+
+.game-logs1 {
+    width: 95%;
+    height: 200px;
+    background: #222121;
+    border: 2px solid white;
+    border-radius: 10px;
+
+    padding: 0;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }

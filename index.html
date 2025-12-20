@@ -7,7 +7,7 @@
         <body>
             <header>
                 <nav class="navbar">
-                    <img src="C:\Users\Admin\Desktop\EternalWeb\logo.png" alt="logo" class="logo-img">
+                    <img src="./logo.png" alt="logo" class="logo-img">
 
                     <ul class="nav-links">
                     <li class="nav-item"><a href="index.html">Games</a></li>
@@ -17,7 +17,7 @@
                 </nav>
                 
                 <div class="game-card">
-                    <img src="C:\Users\Admin\Desktop\EternalWeb\game-logo.png" alt="Game Logo" class="game-logo">
+                    <img src="./game-logo.png" alt="Game Logo" class="game-logo">
                     <h2 class="game-title">Steal Souls</h3>
 
                     <button class="install-btn" onclick="downloadApp()">Download</button>
@@ -25,7 +25,7 @@
                     <script>
                         function downloadApp() {
                             const link = document.createElement("a");
-                            link.href = 'C:\\Users\\Admin\\Desktop\\EternalWeb\\Steal Souls.apk';
+                            link.href ="./steal-souls.apk";
                             link.download = 'Steal Souls.apk';
 
                             document.body.appendChild(link);
