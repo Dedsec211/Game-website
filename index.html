@@ -20,19 +20,12 @@
                     <img src="./game-logo.png" alt="Game Logo" class="game-logo">
                     <h2 class="game-title">Steal Souls</h3>
 
-                    <button class="install-btn" onclick="downloadApp()">Download</button>
+                    <button class="install-btn" id="install-Btn">Download</button>
 
                     <script>
-                        function downloadApp() {
-                            const link = document.createElement("a");
-                            link.href ="./steal-souls.apk";
-                            link.download = 'Steal Souls.apk';
-
-                            document.body.appendChild(link);
-                            link.click();
-                            document.body.removeChild(link);
-
-                        }
+                        document.querySelector("#install-Btn").addEventListener("click", function() {
+                        window.location.href = "https://mega.nz/file/vpJSUTCb#I_O40LPLIeflGrVQo2cVWPs4oQiz_gN15Onh3SxIGF4";
+                        });
                     </script>
                 </div>
 
